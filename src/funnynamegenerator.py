@@ -148,7 +148,7 @@ class AdjectiveStore():
     ADJECTIVES = [
                   Adjective(Locale.FR, Gender.M, "palpitant"),
                   Adjective(Locale.FR, Gender.F, "palpitante"),
-                  Adjective(Locale.EN, Gender.U, "Vibrating"),
+                  Adjective(Locale.EN, Gender.U, "vibrating"),
 
                   Adjective(Locale.FR, Gender.M, "pervert"),
                   Adjective(Locale.FR, Gender.F, "perverse"),
@@ -202,7 +202,7 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.F, "delicieuse"),
                   Adjective(Locale.EN, Gender.U, "delicious"),
 
-                  Adjective(Locale.FR, Gender.U, "degueulasse"),
+                  Adjective(Locale.FR, Gender.U, "dégueulasse"),
                   Adjective(Locale.EN, Gender.U, "disgusting"),
 
                   Adjective(Locale.FR, Gender.M, "divin"),
@@ -397,11 +397,14 @@ class Generator():
         adjs = self._getAdjectivesAccordingToLocaleAndGender(name.gender)
         adj = random.choice(adjs)
 
+        name = name.name.lower()
+        adj = adj.adjective.lower()
+
         if self.locale == Locale.FR:
-            return name.name + "-"  + adj.adjective
+            return name + "-"  + adj
 
         if self.locale == Locale.EN:
-            return adj.adjective + "-" + name.name
+            return adj + "-" + name
 
         raise Exception("Locale is unknown")
 
