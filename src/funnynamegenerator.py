@@ -142,6 +142,44 @@ class NameStore():
 
              Name(Locale.FR, Gender.M, "zombie"),
              Name(Locale.EN, Gender.M, "zombie"),
+
+             Name(Locale.FR, Gender.M, "cyborg"),
+             Name(Locale.EN, Gender.M, "cyborg"),
+
+             Name(Locale.FR, Gender.M, "robot"),
+             Name(Locale.EN, Gender.M, "robot"),
+
+             Name(Locale.FR, Gender.M, "chevalier"),
+             Name(Locale.EN, Gender.M, "knight"),
+
+             Name(Locale.FR, Gender.F, "amazone"),
+             Name(Locale.EN, Gender.F, "amazon"),
+
+             Name(Locale.FR, Gender.M, "guerrier"),
+             Name(Locale.EN, Gender.M, "warrior"),
+
+             Name(Locale.FR, Gender.F, "licorne"),
+             Name(Locale.EN, Gender.F, "unicorne"),
+
+             Name(Locale.FR, Gender.F, "loutre"),
+             Name(Locale.EN, Gender.F, "otter"),
+
+             Name(Locale.FR, Gender.M, "phoque"),
+             Name(Locale.EN, Gender.M, "sea-lion"),
+
+             Name(Locale.FR, Gender.M, "hypocondriaque"),
+             Name(Locale.EN, Gender.M, "hypocondriac"),
+
+             Name(Locale.FR, Gender.M, "mage"),
+             Name(Locale.EN, Gender.M, "sorcerer"),
+
+             Name(Locale.FR, Gender.M, "cul-terreux"),
+             Name(Locale.FR, Gender.M, "beauf"),
+             Name(Locale.EN, Gender.M, "redneck"),
+             Name(Locale.EN, Gender.M, "hillbilly"),
+
+             Name(Locale.FR, Gender.M, "colloc"),
+             Name(Locale.EN, Gender.M, "roomate")
              ]
 
 class AdjectiveStore():
@@ -359,7 +397,47 @@ class AdjectiveStore():
 
                   Adjective(Locale.FR, Gender.M, "savoureux"),
                   Adjective(Locale.FR, Gender.F, "savoureuse"),
-                  Adjective(Locale.EN, Gender.U, "tasty")
+                  Adjective(Locale.EN, Gender.U, "tasty"),
+
+                  Adjective(Locale.FR, Gender.M, "revigorant"),
+                  Adjective(Locale.FR, Gender.F, "revigorante"),
+                  Adjective(Locale.EN, Gender.U, "invigorating"),
+
+                  Adjective(Locale.FR, Gender.M, "rafraichissant"),
+                  Adjective(Locale.FR, Gender.F, "rafraichissante"),
+                  Adjective(Locale.EN, Gender.U, "refreshing"),
+
+                  Adjective(Locale.FR, Gender.U, "invisible"),
+                  Adjective(Locale.EN, Gender.U, "invinsible"),
+
+                  Adjective(Locale.FR, Gender.U, "invisible"),
+                  Adjective(Locale.EN, Gender.U, "invinsible"),
+
+                  Adjective(Locale.FR, Gender.U, "hipster"),
+                  Adjective(Locale.EN, Gender.U, "hipster"),
+
+                  Adjective(Locale.FR, Gender.U, "hippie"),
+                  Adjective(Locale.EN, Gender.U, "hippy"),
+
+                  Adjective(Locale.FR, Gender.U, "photogenique"),
+                  Adjective(Locale.EN, Gender.U, "photogenic"),
+
+                  Adjective(Locale.FR, Gender.U, "debile"),
+                  Adjective(Locale.EN, Gender.U, "retarded"),
+
+                  Adjective(Locale.FR, Gender.U, "informe"),
+                  Adjective(Locale.EN, Gender.U, "malformed"),
+
+                  Adjective(Locale.FR, Gender.U, "brulant"),
+                  Adjective(Locale.EN, Gender.U, "red-hot"),
+
+                  Adjective(Locale.FR, Gender.M, "radioactif"),
+                  Adjective(Locale.FR, Gender.F, "radioactive"),
+                  Adjective(Locale.EN, Gender.U, "radioactive"),
+
+                  Adjective(Locale.FR, Gender.M, "phosphorescent"),
+                  Adjective(Locale.FR, Gender.F, "phosphorescente"),
+                  Adjective(Locale.EN, Gender.U, "glowing")
                   ]
 
 class Generator():
