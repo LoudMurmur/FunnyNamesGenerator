@@ -148,6 +148,14 @@ class AdjectiveStore():
     ADJECTIVES = [
                   Adjective(Locale.FR, Gender.M, "palpitant"),
                   Adjective(Locale.FR, Gender.F, "palpitante"),
+                  Adjective(Locale.EN, Gender.U, "palpitating"),
+
+                  Adjective(Locale.FR, Gender.M, "pulsant"),
+                  Adjective(Locale.FR, Gender.F, "pulsante"),
+                  Adjective(Locale.EN, Gender.U, "pulsating"),
+
+                  Adjective(Locale.FR, Gender.M, "vibrant"),
+                  Adjective(Locale.FR, Gender.F, "vibrante"),
                   Adjective(Locale.EN, Gender.U, "vibrating"),
 
                   Adjective(Locale.FR, Gender.M, "pervert"),
