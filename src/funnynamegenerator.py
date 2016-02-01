@@ -179,7 +179,44 @@ class NameStore():
              Name(Locale.EN, Gender.M, "hillbilly"),
 
              Name(Locale.FR, Gender.M, "colloc"),
-             Name(Locale.EN, Gender.M, "roomate")
+             Name(Locale.EN, Gender.M, "roomate"),
+
+             Name(Locale.FR, Gender.F, "bacterie"),
+             Name(Locale.EN, Gender.F, "bacteria"),
+
+             Name(Locale.FR, Gender.M, "virus"),
+             Name(Locale.EN, Gender.M, "virus"),
+
+             Name(Locale.FR, Gender.M, "mutant"),
+             Name(Locale.EN, Gender.M, "mutant"),
+
+             Name(Locale.FR, Gender.M, "cafard"),
+             Name(Locale.EN, Gender.M, "cockroach"),
+
+             Name(Locale.FR, Gender.M, "poireau"),
+             Name(Locale.EN, Gender.M, "leek"),
+
+             Name(Locale.FR, Gender.F, "pintade"),
+             Name(Locale.EN, Gender.F, "guinea-fowl"),
+
+             Name(Locale.FR, Gender.F, "mite"),
+             Name(Locale.EN, Gender.F, "moth"),
+
+             Name(Locale.FR, Gender.F, "fougere"),
+             Name(Locale.EN, Gender.F, "fern"),
+
+             Name(Locale.FR, Gender.F, "plante-verte"),
+             Name(Locale.EN, Gender.F, "house-plant"),
+
+             Name(Locale.FR, Gender.M, "ornithorynque"),
+             Name(Locale.EN, Gender.M, "platypus"),
+
+             Name(Locale.FR, Gender.M, "pingouin"),
+             Name(Locale.EN, Gender.M, "penguin"),
+
+             Name(Locale.FR, Gender.F, "truie"),
+             Name(Locale.FR, Gender.F, "cochone"),
+             Name(Locale.EN, Gender.F, "sow")
              ]
 
 class AdjectiveStore():
@@ -430,7 +467,117 @@ class AdjectiveStore():
 
                   Adjective(Locale.FR, Gender.M, "phosphorescent"),
                   Adjective(Locale.FR, Gender.F, "phosphorescente"),
-                  Adjective(Locale.EN, Gender.U, "glowing")
+                  Adjective(Locale.EN, Gender.U, "glowing"),
+
+                  Adjective(Locale.FR, Gender.M, "endormit"),
+                  Adjective(Locale.FR, Gender.F, "endormie"),
+                  Adjective(Locale.EN, Gender.U, "sleeping"),
+
+                  Adjective(Locale.FR, Gender.U, "de-la-montagne"),
+                  Adjective(Locale.EN, Gender.U, "mountain"),
+
+                  Adjective(Locale.FR, Gender.M, "pouilleux"),
+                  Adjective(Locale.FR, Gender.F, "pouilleuse"),
+                  Adjective(Locale.EN, Gender.U, "lousy"),
+
+                  Adjective(Locale.FR, Gender.M, "aguicheur"),
+                  Adjective(Locale.FR, Gender.F, "aguicheuse"),
+                  Adjective(Locale.EN, Gender.U, "teasing"),
+
+                  Adjective(Locale.FR, Gender.M, "ruisselant"),
+                  Adjective(Locale.FR, Gender.F, "ruisselante"),
+                  #no english
+
+                  Adjective(Locale.FR, Gender.U, "anemique"),
+                  Adjective(Locale.EN, Gender.U, "anemic"),
+
+                  Adjective(Locale.FR, Gender.U, "lubrique"),
+                  Adjective(Locale.EN, Gender.U, "lewd"),
+
+                  Adjective(Locale.FR, Gender.U, "sanguinaire"),
+                  Adjective(Locale.EN, Gender.U, "bloodthirsty"),
+
+                  Adjective(Locale.FR, Gender.M, "vicieux"),
+                  Adjective(Locale.FR, Gender.F, "vicieuse"),
+                  Adjective(Locale.EN, Gender.U, "vicious"),
+
+                  Adjective(Locale.FR, Gender.M, "pernicieux"),
+                  Adjective(Locale.FR, Gender.F, "pernicieuse"),
+                  Adjective(Locale.EN, Gender.U, "pernicious"),
+
+                  Adjective(Locale.FR, Gender.M, "morveux"),
+                  Adjective(Locale.FR, Gender.F, "morveuse"),
+                  Adjective(Locale.EN, Gender.U, "snotty"),
+
+                  Adjective(Locale.FR, Gender.M, "dodu"),
+                  Adjective(Locale.FR, Gender.F, "dodue"),
+                  Adjective(Locale.EN, Gender.U, "plump"),
+
+                  Adjective(Locale.FR, Gender.M, "hysterique"),
+                  Adjective(Locale.EN, Gender.U, "hysteric"),
+
+                  Adjective(Locale.FR, Gender.M, "baveux"),
+                  Adjective(Locale.FR, Gender.F, "baveuse"),
+                  Adjective(Locale.EN, Gender.U, "drooling"),
+
+                  Adjective(Locale.FR, Gender.M, "ecoeurant"),
+                  Adjective(Locale.FR, Gender.F, "ecoeurante"),
+                  Adjective(Locale.EN, Gender.U, "sickening"),
+
+                  Adjective(Locale.FR, Gender.M, "velu"),
+                  Adjective(Locale.FR, Gender.F, "velue"),
+                  #no english, already used hairy for poilu
+
+                  Adjective(Locale.FR, Gender.M, "odorant"),
+                  Adjective(Locale.FR, Gender.F, "odorante"),
+                  Adjective(Locale.EN, Gender.U, "smelly"),
+
+                  Adjective(Locale.FR, Gender.M, "moisi"),
+                  Adjective(Locale.FR, Gender.F, "moisie"),
+                  Adjective(Locale.EN, Gender.U, "mouldy"),
+
+                  Adjective(Locale.FR, Gender.M, "fletri"),
+                  Adjective(Locale.FR, Gender.F, "fletrie"),
+                  Adjective(Locale.EN, Gender.U, "withered"),
+
+                  Adjective(Locale.FR, Gender.U, "reveche"),
+                  Adjective(Locale.EN, Gender.U, "surly"), #not sure
+
+                  Adjective(Locale.FR, Gender.U, "putride"),
+                  Adjective(Locale.EN, Gender.U, "putrid"),
+
+                  Adjective(Locale.FR, Gender.U, "fetide"),
+                  Adjective(Locale.EN, Gender.U, "fetid"),
+
+                  Adjective(Locale.FR, Gender.U, "au-chocolat"),
+                  Adjective(Locale.EN, Gender.U, "chocolate"),
+
+                  Adjective(Locale.FR, Gender.U, "indomptable"),
+                  Adjective(Locale.EN, Gender.U, "indomptable"),
+
+                  Adjective(Locale.FR, Gender.U, "romantique"),
+                  Adjective(Locale.EN, Gender.U, "romantic"),
+
+                  Adjective(Locale.FR, Gender.M, "calin"),
+                  Adjective(Locale.FR, Gender.F, "caline"),
+                  Adjective(Locale.EN, Gender.U, "huggy"),
+
+                  Adjective(Locale.FR, Gender.M, "farfelu"),
+                  Adjective(Locale.FR, Gender.F, "farfelue"),
+                  Adjective(Locale.EN, Gender.U, "eccentric"),
+
+                  Adjective(Locale.FR, Gender.M, "rutilant"),
+                  Adjective(Locale.FR, Gender.F, "rutilante"),
+                  #no english, already used sparkling elsewhere
+
+                  Adjective(Locale.FR, Gender.U, "sous-acide"),
+                  Adjective(Locale.EN, Gender.U, "lsd"),
+
+                  Adjective(Locale.FR, Gender.U, "sous-champi"),
+                  Adjective(Locale.EN, Gender.U, "tripping"),
+
+                  Adjective(Locale.FR, Gender.U, "revolutionnaire"),
+                  Adjective(Locale.EN, Gender.U, "revolutionnary")
                   ]
 
 class Generator():
