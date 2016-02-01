@@ -297,10 +297,6 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.U, "insuportable"),
                   Adjective(Locale.EN, Gender.U, "unbereable"),
 
-                  Adjective(Locale.FR, Gender.M, "libidineux"),
-                  Adjective(Locale.FR, Gender.F, "libidineuse"),
-                  Adjective(Locale.EN, Gender.U, "libidinous"),
-
                   Adjective(Locale.FR, Gender.M, "infernal"),
                   Adjective(Locale.FR, Gender.F, "infernale"),
                   Adjective(Locale.EN, Gender.U, "infernal"),
@@ -406,9 +402,6 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.M, "rafraichissant"),
                   Adjective(Locale.FR, Gender.F, "rafraichissante"),
                   Adjective(Locale.EN, Gender.U, "refreshing"),
-
-                  Adjective(Locale.FR, Gender.U, "invisible"),
-                  Adjective(Locale.EN, Gender.U, "invinsible"),
 
                   Adjective(Locale.FR, Gender.U, "invisible"),
                   Adjective(Locale.EN, Gender.U, "invinsible"),
