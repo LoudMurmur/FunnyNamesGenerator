@@ -13,16 +13,16 @@ class Gender():
     U = 'U' #Unisex, Adjective works for both gender
 
 class Name():
-    def __init__(self, locale, gender, name):
+    def __init__(self, locale, gender, value):
         self.locale = locale
         self.gender = gender
-        self.name = name
+        self.value = value
 
 class Adjective():
-    def __init__(self, locale, gender, adjective):
+    def __init__(self, locale, gender, value):
         self.locale = locale
         self.gender = gender
-        self.adjective = adjective
+        self.value = value
 
 class NameStore():
     NAMES = [
@@ -251,7 +251,7 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "magical"),
 
                   Adjective(Locale.FR, Gender.M, "enrichit"),
-                  Adjective(Locale.EN, Gender.F, "enrichie"),
+                  Adjective(Locale.FR, Gender.F, "enrichie"),
                   Adjective(Locale.EN, Gender.U, "enriched"),
 
                   Adjective(Locale.FR, Gender.U, "ivre"),
@@ -623,14 +623,14 @@ class Generator():
         adjs = self._getAdjectivesAccordingToLocaleAndGender(name.gender)
         adj = random.choice(adjs)
 
-        name = name.name.lower()
-        adj = adj.adjective.lower()
+        nameValue = name.value.lower()
+        adjValue = adj.value.lower()
 
         if self.locale == Locale.FR:
-            return name + "-"  + adj
+            return nameValue + "-"  + adjValue
 
         if self.locale == Locale.EN:
-            return adj + "-" + name
+            return adjValue + "-" + nameValue
 
         raise Exception("Locale is unknown")
 
