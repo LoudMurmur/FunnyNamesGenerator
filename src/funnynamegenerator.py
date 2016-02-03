@@ -216,7 +216,15 @@ class NameStore():
 
              Name(Locale.FR, Gender.F, "truie"),
              Name(Locale.FR, Gender.F, "cochone"),
-             Name(Locale.EN, Gender.F, "sow")
+             Name(Locale.EN, Gender.F, "sow"),
+
+             Name(Locale.FR, Gender.M, "mogwai"),
+             Name(Locale.FR, Gender.M, "gremlin"),
+             Name(Locale.EN, Gender.M, "mogwai"),
+             Name(Locale.EN, Gender.M, "gremlin"),
+
+             Name(Locale.FR, Gender.M, "poney"),
+             Name(Locale.EN, Gender.M, "pony"),
              ]
 
 class AdjectiveStore():
@@ -577,7 +585,21 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "tripping"),
 
                   Adjective(Locale.FR, Gender.U, "revolutionnaire"),
-                  Adjective(Locale.EN, Gender.U, "revolutionnary")
+                  Adjective(Locale.EN, Gender.U, "revolutionnary"),
+
+                  Adjective(Locale.FR, Gender.M, "brutal"),
+                  Adjective(Locale.FR, Gender.F, "brutale"),
+                  Adjective(Locale.EN, Gender.U, "brutal"),
+
+                  Adjective(Locale.FR, Gender.U, "erotique"),
+                  Adjective(Locale.EN, Gender.U, "erotic"),
+
+                  Adjective(Locale.FR, Gender.U, "porno"),
+                  Adjective(Locale.EN, Gender.U, "porn"),
+
+                  Adjective(Locale.FR, Gender.M, "interdit"),
+                  Adjective(Locale.FR, Gender.F, "interdite"),
+                  Adjective(Locale.EN, Gender.U, "forbidden"),
                   ]
 
 class Generator():
