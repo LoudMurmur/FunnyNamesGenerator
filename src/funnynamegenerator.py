@@ -225,6 +225,15 @@ class NameStore():
 
              Name(Locale.FR, Gender.M, "poney"),
              Name(Locale.EN, Gender.M, "pony"),
+
+             Name(Locale.FR, Gender.M, "reve"),
+             Name(Locale.EN, Gender.M, "dream"),
+
+             Name(Locale.FR, Gender.M, "barman"),
+             Name(Locale.EN, Gender.M, "barman"),
+
+             Name(Locale.FR, Gender.M, "dynosaure"),
+             Name(Locale.EN, Gender.M, "dynosaur")
              ]
 
 class AdjectiveStore():
@@ -466,7 +475,8 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.U, "informe"),
                   Adjective(Locale.EN, Gender.U, "malformed"),
 
-                  Adjective(Locale.FR, Gender.U, "brulant"),
+                  Adjective(Locale.FR, Gender.M, "brulant"),
+                  Adjective(Locale.FR, Gender.F, "brulante"),
                   Adjective(Locale.EN, Gender.U, "red-hot"),
 
                   Adjective(Locale.FR, Gender.M, "radioactif"),
@@ -640,8 +650,8 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.U, "prehistorique"),
                   Adjective(Locale.EN, Gender.U, "prehistoric"),
 
-                  Adjective(Locale.FR, Gender.U, "poethique"),
-                  Adjective(Locale.EN, Gender.U, "poethic"),
+                  Adjective(Locale.FR, Gender.U, "prophethique"),
+                  Adjective(Locale.EN, Gender.U, "prophethic"),
 
                   Adjective(Locale.FR, Gender.U, "mystique"),
                   Adjective(Locale.EN, Gender.U, "mystical"),
@@ -816,7 +826,10 @@ class AdjectiveStore():
 
                   Adjective(Locale.FR, Gender.M, "psychoactif"),
                   Adjective(Locale.FR, Gender.F, "psychoactive"),
-                  Adjective(Locale.EN, Gender.U, "psychoactive")
+                  Adjective(Locale.EN, Gender.U, "psychoactive"),
+
+                  Adjective(Locale.FR, Gender.U, "legendaire"),
+                  Adjective(Locale.EN, Gender.U, "legendary")
                   ]
 
 class Generator():
