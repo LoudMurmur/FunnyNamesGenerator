@@ -600,6 +600,223 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.M, "interdit"),
                   Adjective(Locale.FR, Gender.F, "interdite"),
                   Adjective(Locale.EN, Gender.U, "forbidden"),
+
+                  Adjective(Locale.FR, Gender.U, "ionique"),
+                  Adjective(Locale.EN, Gender.U, "ionic"),
+
+                  Adjective(Locale.FR, Gender.U, "metallique"),
+                  Adjective(Locale.EN, Gender.U, "metallic"),
+
+                  Adjective(Locale.FR, Gender.U, "ultra-sonique"),
+                  Adjective(Locale.EN, Gender.U, "ultra-sonic"),
+
+                  Adjective(Locale.FR, Gender.U, "tyrannique"),
+                  Adjective(Locale.EN, Gender.U, "tyrannic"),
+
+                  Adjective(Locale.FR, Gender.U, "toxique"),
+                  Adjective(Locale.EN, Gender.U, "toxic"),
+
+                  Adjective(Locale.FR, Gender.U, "chimique"),
+                  Adjective(Locale.EN, Gender.U, "chimical"),
+
+                  Adjective(Locale.FR, Gender.U, "sadique"),
+                  Adjective(Locale.EN, Gender.U, "sadistic"),
+
+                  Adjective(Locale.FR, Gender.U, "psychotique"),
+                  Adjective(Locale.EN, Gender.U, "psychotic"),
+
+                  Adjective(Locale.FR, Gender.U, "psychopathe"),
+                  Adjective(Locale.EN, Gender.U, "psychopathic"),
+
+                  Adjective(Locale.FR, Gender.U, "pudique"),
+                  Adjective(Locale.EN, Gender.U, "pudic"),
+
+                  Adjective(Locale.FR, Gender.U, "psychedelique"),
+                  Adjective(Locale.EN, Gender.U, "psychedelic"),
+
+                  Adjective(Locale.FR, Gender.U, "prophetique"),
+                  Adjective(Locale.EN, Gender.U, "prophetic"),
+
+                  Adjective(Locale.FR, Gender.U, "prehistorique"),
+                  Adjective(Locale.EN, Gender.U, "prehistoric"),
+
+                  Adjective(Locale.FR, Gender.U, "poethique"),
+                  Adjective(Locale.EN, Gender.U, "poethic"),
+
+                  Adjective(Locale.FR, Gender.U, "mystique"),
+                  Adjective(Locale.EN, Gender.U, "mystical"),
+
+                  Adjective(Locale.FR, Gender.M, "nauseabon"),
+                  Adjective(Locale.FR, Gender.F, "nauseabonde"),
+                  Adjective(Locale.EN, Gender.U, "foul"),
+
+                  Adjective(Locale.FR, Gender.U, "metaphysique"),
+                  Adjective(Locale.EN, Gender.U, "metaphysical"),
+
+                  Adjective(Locale.FR, Gender.U, "mecanique"),
+                  Adjective(Locale.EN, Gender.U, "mecanic"),
+
+                  Adjective(Locale.FR, Gender.U, "malefique"),
+                  Adjective(Locale.EN, Gender.U, "maleficient"),
+
+                  Adjective(Locale.FR, Gender.U, "microscopique"),
+                  Adjective(Locale.EN, Gender.U, "microscopic"),
+
+                  Adjective(Locale.FR, Gender.U, "lunatique"),
+                  Adjective(Locale.EN, Gender.U, "lunatic"),
+
+                  Adjective(Locale.FR, Gender.U, "atomique"),
+                  Adjective(Locale.EN, Gender.U, "atomic"),
+
+                  Adjective(Locale.FR, Gender.U, "nucleaire"),
+                  Adjective(Locale.EN, Gender.U, "nuclear"),
+
+                  Adjective(Locale.FR, Gender.U, "hypnotique"),
+                  Adjective(Locale.EN, Gender.U, "hypnotic"),
+
+                  Adjective(Locale.FR, Gender.U, "honorifique"),
+                  Adjective(Locale.EN, Gender.U, "honorifical"),
+
+                  Adjective(Locale.FR, Gender.U, "heroique"),
+                  Adjective(Locale.EN, Gender.U, "heroic"),
+
+                  Adjective(Locale.FR, Gender.U, "heretique"),
+                  Adjective(Locale.EN, Gender.U, "heretic"),
+
+                  Adjective(Locale.FR, Gender.U, "gothique"),
+                  Adjective(Locale.EN, Gender.U, "goth"),
+
+                  Adjective(Locale.FR, Gender.U, "cybernetique"),
+                  Adjective(Locale.EN, Gender.U, "cybernetic"),
+
+                  Adjective(Locale.FR, Gender.U, "bionique"),
+                  Adjective(Locale.EN, Gender.U, "bionic"),
+
+                  Adjective(Locale.FR, Gender.U, "chaotique"),
+                  Adjective(Locale.FR, Gender.U, "du-chaos"),
+                  Adjective(Locale.EN, Gender.U, "chaotic"),
+
+                  Adjective(Locale.FR, Gender.U, "quantique"),
+                  Adjective(Locale.EN, Gender.U, "quantic"),
+
+                  Adjective(Locale.FR, Gender.U, "antique"),
+                  Adjective(Locale.EN, Gender.U, "antic"),
+
+                  Adjective(Locale.FR, Gender.U, "amnesique"),
+                  Adjective(Locale.EN, Gender.U, "amnesic"),
+
+                  Adjective(Locale.FR, Gender.U, "aerodynamique"),
+                  Adjective(Locale.EN, Gender.U, "aerodynamic"),
+
+                  Adjective(Locale.FR, Gender.U, "imaginaire"),
+                  Adjective(Locale.EN, Gender.U, "imaginary"),
+
+                  Adjective(Locale.FR, Gender.M, "primordial"),
+                  Adjective(Locale.FR, Gender.F, "primordiale"),
+                  Adjective(Locale.EN, Gender.U, "primordial"),
+
+                  Adjective(Locale.FR, Gender.M, "abyssal"),
+                  Adjective(Locale.FR, Gender.F, "abyssale"),
+                  Adjective(Locale.EN, Gender.U, "abyssal"),
+
+                  Adjective(Locale.FR, Gender.M, "ancestral"),
+                  Adjective(Locale.FR, Gender.F, "ancestrale"),
+                  Adjective(Locale.EN, Gender.U, "ancestral"),
+
+                  Adjective(Locale.FR, Gender.M, "anormal"),
+                  Adjective(Locale.FR, Gender.F, "anormale"),
+                  #nope,
+
+                  Adjective(Locale.FR, Gender.M, "astral"),
+                  Adjective(Locale.FR, Gender.F, "astrale"),
+                  Adjective(Locale.EN, Gender.U, "astral"),
+
+                  Adjective(Locale.FR, Gender.M, "ceremonial"),
+                  Adjective(Locale.FR, Gender.F, "ceremoniale"),
+                  Adjective(Locale.EN, Gender.U, "ceremonial"),
+
+                  Adjective(Locale.FR, Gender.M, "colossal"),
+                  Adjective(Locale.FR, Gender.F, "colossale"),
+                  Adjective(Locale.EN, Gender.U, "colossal"),
+
+                  Adjective(Locale.FR, Gender.M, "neural"),
+                  Adjective(Locale.FR, Gender.F, "neurale"),
+                  Adjective(Locale.EN, Gender.U, "neural"),
+
+                  Adjective(Locale.FR, Gender.M, "spatial"),
+                  Adjective(Locale.FR, Gender.F, "spatiale"),
+                  Adjective(Locale.EN, Gender.U, "spatial"),
+
+                  Adjective(Locale.FR, Gender.M, "sideral"),
+                  Adjective(Locale.FR, Gender.F, "siderale"),
+                  Adjective(Locale.EN, Gender.U, "sideral"),
+
+                  Adjective(Locale.FR, Gender.M, "spectral"),
+                  Adjective(Locale.FR, Gender.F, "spectrale"),
+                  Adjective(Locale.EN, Gender.U, "spectral"),
+
+                  Adjective(Locale.FR, Gender.U, "funeste"),
+                  Adjective(Locale.EN, Gender.U, "disastrous"),
+
+                  Adjective(Locale.FR, Gender.M, "urbain"),
+                  Adjective(Locale.FR, Gender.F, "urbaine"),
+                  Adjective(Locale.EN, Gender.U, "urban"),
+
+                  Adjective(Locale.FR, Gender.M, "miteu"),
+                  Adjective(Locale.FR, Gender.F, "miteuse"),
+                  #nope
+
+                  Adjective(Locale.FR, Gender.M, "moyenageux"),
+                  Adjective(Locale.FR, Gender.F, "moyenageuse"),
+                  Adjective(Locale.EN, Gender.U, "moyenageous"),
+
+                  Adjective(Locale.FR, Gender.M, "envoutant"),
+                  Adjective(Locale.FR, Gender.F, "envoutante"),
+                  Adjective(Locale.EN, Gender.U, "bewitching"),
+
+                  Adjective(Locale.FR, Gender.M, "fretillant"),
+                  Adjective(Locale.FR, Gender.F, "fretillante"),
+                  Adjective(Locale.EN, Gender.U, "wriggling"),
+
+                  Adjective(Locale.FR, Gender.M, "malfaisant"),
+                  Adjective(Locale.FR, Gender.F, "malfaisante"),
+                  Adjective(Locale.EN, Gender.U, "evil"),
+
+                  Adjective(Locale.FR, Gender.M, "languissant"),
+                  Adjective(Locale.FR, Gender.F, "languissante"),
+                  Adjective(Locale.EN, Gender.U, "languishing"),
+
+                  Adjective(Locale.FR, Gender.M, "oppressant"),
+                  Adjective(Locale.FR, Gender.F, "oppressante"),
+                  Adjective(Locale.EN, Gender.U, "oppressing"),
+
+                  Adjective(Locale.FR, Gender.M, "repugnant"),
+                  Adjective(Locale.FR, Gender.F, "repugnante"),
+                  Adjective(Locale.EN, Gender.U, "repulsive"),
+
+                  Adjective(Locale.FR, Gender.M, "surprenant"),
+                  Adjective(Locale.FR, Gender.F, "surprenante"),
+                  Adjective(Locale.EN, Gender.U, "surprising"),
+
+                  Adjective(Locale.FR, Gender.U, "veritable"),
+                  Adjective(Locale.EN, Gender.U, "true"),
+
+                  Adjective(Locale.FR, Gender.U, "invulnerable"),
+                  Adjective(Locale.EN, Gender.U, "invulnerable"),
+
+                  Adjective(Locale.FR, Gender.U, "de-lumiere"),
+                  Adjective(Locale.EN, Gender.U, "light"),
+
+                  Adjective(Locale.FR, Gender.U, "des-tenebres"),
+                  Adjective(Locale.EN, Gender.U, "tenebrous"),
+
+                  Adjective(Locale.FR, Gender.M, "gluant"),
+                  Adjective(Locale.FR, Gender.F, "gluante"),
+                  Adjective(Locale.EN, Gender.U, "slimy"),
+
+                  Adjective(Locale.FR, Gender.M, "psychoactif"),
+                  Adjective(Locale.FR, Gender.F, "psychoactive"),
+                  Adjective(Locale.EN, Gender.U, "psychoactive")
                   ]
 
 class Generator():
