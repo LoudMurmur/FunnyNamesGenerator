@@ -829,7 +829,10 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "psychoactive"),
 
                   Adjective(Locale.FR, Gender.U, "legendaire"),
-                  Adjective(Locale.EN, Gender.U, "legendary")
+                  Adjective(Locale.EN, Gender.U, "legendary"),
+
+                  Adjective(Locale.FR, Gender.U, "de-la-foret"),
+                  Adjective(Locale.EN, Gender.U, "forest")
                   ]
 
 class Generator():
