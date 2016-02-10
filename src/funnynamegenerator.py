@@ -81,7 +81,7 @@ class NameStore():
              Name(Locale.EN, Gender.M, "engineer"),
 
              Name(Locale.FR, Gender.M, "labrador"),
-             Name(Locale.EN, Gender.M, "lab"),
+             Name(Locale.EN, Gender.M, "labrador"),
 
              Name(Locale.FR, Gender.F, "asperge"),
              Name(Locale.EN, Gender.F, "aspergus"),
@@ -832,7 +832,10 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "legendary"),
 
                   Adjective(Locale.FR, Gender.U, "de-la-foret"),
-                  Adjective(Locale.EN, Gender.U, "forest")
+                  Adjective(Locale.EN, Gender.U, "forest"),
+
+                  Adjective(Locale.FR, Gender.U, "de-competition")
+                  #nope
                   ]
 
 class Generator():
