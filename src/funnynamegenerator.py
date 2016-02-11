@@ -834,8 +834,14 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.U, "de-la-foret"),
                   Adjective(Locale.EN, Gender.U, "forest"),
 
-                  Adjective(Locale.FR, Gender.U, "de-competition")
+                  Adjective(Locale.FR, Gender.U, "de-competition"),
                   #nope
+
+                  Adjective(Locale.FR, Gender.U, "de-bataille"),
+                  Adjective(Locale.EN, Gender.U, "battle"),
+
+                  Adjective(Locale.FR, Gender.U, "de-guerre"),
+                  Adjective(Locale.EN, Gender.U, "war")
                   ]
 
 class Generator():
