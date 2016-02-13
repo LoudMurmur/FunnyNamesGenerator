@@ -841,7 +841,13 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "battle"),
 
                   Adjective(Locale.FR, Gender.U, "de-guerre"),
-                  Adjective(Locale.EN, Gender.U, "war")
+                  Adjective(Locale.EN, Gender.U, "war"),
+
+                  Adjective(Locale.FR, Gender.U, "tribal"),
+                  Adjective(Locale.EN, Gender.U, "tribal"),
+
+                  Adjective(Locale.FR, Gender.U, "epique"),
+                  Adjective(Locale.EN, Gender.U, "epic")
                   ]
 
 class Generator():
