@@ -232,8 +232,20 @@ class NameStore():
              Name(Locale.FR, Gender.M, "barman"),
              Name(Locale.EN, Gender.M, "barman"),
 
-             Name(Locale.FR, Gender.M, "dynosaure"),
-             Name(Locale.EN, Gender.M, "dynosaur")
+             Name(Locale.FR, Gender.M, "dinosaure"),
+             Name(Locale.EN, Gender.M, "dinosaur"),
+
+             Name(Locale.FR, Gender.M, "poulpe"),
+             Name(Locale.EN, Gender.M, "octopus"),
+
+             Name(Locale.FR, Gender.M, "crabe"),
+             Name(Locale.EN, Gender.M, "crab"),
+
+             Name(Locale.FR, Gender.M, "vieillard"),
+             Name(Locale.FR, Gender.F, "vieillarde"),
+             Name(Locale.EN, Gender.F, "hag"),
+
+             Name(Locale.EN, Gender.F, "narwhal")
              ]
 
 class AdjectiveStore():
@@ -847,7 +859,14 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "tribal"),
 
                   Adjective(Locale.FR, Gender.U, "epique"),
-                  Adjective(Locale.EN, Gender.U, "epic")
+                  Adjective(Locale.EN, Gender.U, "epic"),
+
+                  Adjective(Locale.FR, Gender.U, "mythique"),
+                  Adjective(Locale.EN, Gender.U, "mythical"),
+
+                  Adjective(Locale.FR, Gender.M, "tueur"),
+                  Adjective(Locale.FR, Gender.F, "tueuse"),
+                  Adjective(Locale.EN, Gender.U, "killer")
                   ]
 
 class Generator():
