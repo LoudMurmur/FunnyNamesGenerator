@@ -245,7 +245,10 @@ class NameStore():
              Name(Locale.FR, Gender.F, "vieillarde"),
              Name(Locale.EN, Gender.F, "hag"),
 
-             Name(Locale.EN, Gender.F, "narwhal")
+             Name(Locale.EN, Gender.F, "narwhal"),
+
+             Name(Locale.FR, Gender.F, "carpe"),
+             Name(Locale.EN, Gender.F, "carp")
              ]
 
 class AdjectiveStore():
