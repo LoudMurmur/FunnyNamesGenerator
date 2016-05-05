@@ -243,6 +243,7 @@ class NameStore():
 
              Name(Locale.FR, Gender.M, "vieillard"),
              Name(Locale.FR, Gender.F, "vieillarde"),
+             Name(Locale.EN, Gender.M, "geezer"),
              Name(Locale.EN, Gender.F, "hag"),
 
              Name(Locale.EN, Gender.F, "narwhal"),
@@ -882,7 +883,11 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.U, "splendide"),
                   Adjective(Locale.EN, Gender.U, "splendid"),
 
-                  Adjective(Locale.EN, Gender.U, "neo")
+                  Adjective(Locale.EN, Gender.U, "neo"),
+
+                  Adjective(Locale.FR, Gender.M, "furtif"),
+                  Adjective(Locale.FR, Gender.F, "furtive"),
+                  Adjective(Locale.EN, Gender.U, "stealth")
                   ]
 
 class Generator():
