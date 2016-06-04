@@ -962,7 +962,7 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "spotty"),
 
                   Adjective(Locale.FR, Gender.M, "bigleu"),
-                  Adjective(Locale.FR, Gender.F, "bligleuse"),
+                  Adjective(Locale.FR, Gender.F, "bigleuse"),
 
                   Adjective(Locale.FR, Gender.M, "des-sables"),
                   Adjective(Locale.FR, Gender.M, "du-desert"),
@@ -984,7 +984,7 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "wise"),
 
                   Adjective(Locale.FR, Gender.M, "lumineux"),
-                  Adjective(Locale.FR, Gender.F, "luminous"),
+                  Adjective(Locale.FR, Gender.F, "lumineuse"),
                   Adjective(Locale.EN, Gender.U, "luminous"),
 
                   Adjective(Locale.FR, Gender.M, "geant"),
@@ -995,6 +995,9 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.F, "costaude"),
                   Adjective(Locale.EN, Gender.U, "beefy"),
 
+                  #I'm not translating the 3 next word in english
+                  #because they would end with a 'é' and since I'm
+                  #using this for server naming it could cause problems
                   Adjective(Locale.EN, Gender.U, "dehydrated"),
 
                   Adjective(Locale.EN, Gender.U, "lyophilized"),
