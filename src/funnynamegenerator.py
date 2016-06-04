@@ -19,10 +19,11 @@ class Name():
         self.value = value
 
 class Adjective():
-    def __init__(self, locale, gender, value):
+    def __init__(self, locale, gender, value, invert=False):
         self.locale = locale
         self.gender = gender
         self.value = value
+        self.invert = invert
 
 class NameStore():
     NAMES = [
@@ -883,11 +884,15 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.U, "splendide"),
                   Adjective(Locale.EN, Gender.U, "splendid"),
 
+                  Adjective(Locale.FR, Gender.U, "neo", True),
                   Adjective(Locale.EN, Gender.U, "neo"),
 
                   Adjective(Locale.FR, Gender.M, "furtif"),
                   Adjective(Locale.FR, Gender.F, "furtive"),
-                  Adjective(Locale.EN, Gender.U, "stealth")
+                  Adjective(Locale.EN, Gender.U, "stealth"),
+
+                  Adjective(Locale.FR, Gender.U, "de-petite-vertue"),
+                  Adjective(Locale.EN, Gender.U, "of-little-virtue", True)
                   ]
 
 class Generator():
@@ -937,10 +942,16 @@ class Generator():
         adjValue = adj.value.lower()
 
         if self.locale == Locale.FR:
-            return nameValue + "-"  + adjValue
+            if adj.invert:
+                return adjValue + "-"  + nameValue
+            else:
+                return nameValue + "-"  + adjValue
 
         if self.locale == Locale.EN:
-            return adjValue + "-" + nameValue
+            if adj.invert:
+                return nameValue + "-" + adjValue
+            else:
+                return adjValue + "-" + nameValue
 
         raise Exception("Locale is unknown")
 
