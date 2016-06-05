@@ -316,7 +316,10 @@ class NameStore():
              Name(Locale.EN, Gender.M, "pheasant"),
 
              Name(Locale.FR, Gender.M, "champignon"),
-             Name(Locale.EN, Gender.F, "mushroom")
+             Name(Locale.EN, Gender.M, "mushroom"),
+
+             Name(Locale.FR, Gender.M, "shaman"),
+             Name(Locale.EN, Gender.M, "shaman")
              ]
 
 class AdjectiveStore():
@@ -995,14 +998,29 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.F, "costaude"),
                   Adjective(Locale.EN, Gender.U, "beefy"),
 
-                  #I'm not translating the 3 next word in english
+                  #I'm not translating the 4 next word in english
                   #because they would end with a 'é' and since I'm
                   #using this for server naming it could cause problems
                   Adjective(Locale.EN, Gender.U, "dehydrated"),
 
                   Adjective(Locale.EN, Gender.U, "lyophilized"),
 
-                  Adjective(Locale.EN, Gender.U, "momified")
+                  Adjective(Locale.EN, Gender.U, "momified"),
+
+                  Adjective(Locale.EN, Gender.U, "expired"),
+
+                  Adjective(Locale.FR, Gender.U, "analogique"),
+                  Adjective(Locale.EN, Gender.U, "analog"),
+
+                  Adjective(Locale.FR, Gender.U, "numerique"),
+                  Adjective(Locale.EN, Gender.U, "digital"),
+
+                  Adjective(Locale.FR, Gender.U, "techno", True),
+                  Adjective(Locale.EN, Gender.U, "techno"),
+
+                  Adjective(Locale.FR, Gender.M, "insolent"),
+                  Adjective(Locale.FR, Gender.F, "insolente"),
+                  Adjective(Locale.EN, Gender.U, "insolent")
                   ]
 
 class Generator():
