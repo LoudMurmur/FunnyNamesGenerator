@@ -40,7 +40,7 @@ class NameStore():
              Name(Locale.EN, Gender.F, "oyster"),
 
              Name(Locale.FR, Gender.M, "canibale"),
-             Name(Locale.EN, Gender.M, "Canibal"),
+             Name(Locale.EN, Gender.M, "canibal"),
 
              Name(Locale.FR, Gender.F, "tomate"),
              Name(Locale.EN, Gender.F, "tomatoe"),
@@ -52,13 +52,14 @@ class NameStore():
              Name(Locale.EN, Gender.M, "caribou"),
 
              Name(Locale.FR, Gender.M, "narval"),
-             Name(Locale.EN, Gender.M, "narval"),
+             Name(Locale.EN, Gender.M, "narwhal"),
 
              Name(Locale.FR, Gender.M, "phacochere"),
              Name(Locale.EN, Gender.M, "warthog"),
 
              Name(Locale.FR, Gender.F, "guenon"),
-             Name(Locale.EN, Gender.M, "monkey"), #no word for 'female monkey'
+             #no word for 'female monkey'
+             Name(Locale.EN, Gender.M, "monkey"),
 
              Name(Locale.FR, Gender.F, "mouette"),
              Name(Locale.EN, Gender.F, "seagull"),
@@ -247,8 +248,6 @@ class NameStore():
              Name(Locale.EN, Gender.M, "geezer"),
              Name(Locale.EN, Gender.F, "hag"),
 
-             Name(Locale.EN, Gender.F, "narwhal"),
-
              Name(Locale.FR, Gender.F, "carpe"),
              Name(Locale.EN, Gender.F, "carp"),
 
@@ -263,6 +262,9 @@ class NameStore():
 
              Name(Locale.FR, Gender.M, "centaure"),
              Name(Locale.EN, Gender.M, "centaure"),
+
+             Name(Locale.FR, Gender.M, "satyre"),
+             Name(Locale.EN, Gender.M, "satyr"),
 
              Name(Locale.FR, Gender.M, "cyclope"),
              Name(Locale.EN, Gender.M, "cyclope"),
@@ -319,7 +321,10 @@ class NameStore():
              Name(Locale.EN, Gender.M, "mushroom"),
 
              Name(Locale.FR, Gender.M, "shaman"),
-             Name(Locale.EN, Gender.M, "shaman")
+             Name(Locale.EN, Gender.M, "shaman"),
+
+             Name(Locale.FR, Gender.M, "chimere"),
+             Name(Locale.EN, Gender.M, "chimera")
              ]
 
 class AdjectiveStore():
@@ -382,13 +387,13 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "majestuous"),
 
                   Adjective(Locale.FR, Gender.U, "flasque"),
-                  Adjective(Locale.EN, Gender.U, "flask"),
+                  Adjective(Locale.EN, Gender.U, "flacid"),
 
                   Adjective(Locale.FR, Gender.M, "delicieux"),
                   Adjective(Locale.FR, Gender.F, "delicieuse"),
                   Adjective(Locale.EN, Gender.U, "delicious"),
 
-                  Adjective(Locale.FR, Gender.U, "dégueulasse"),
+                  Adjective(Locale.FR, Gender.U, "degueulasse"),
                   Adjective(Locale.EN, Gender.U, "disgusting"),
 
                   Adjective(Locale.FR, Gender.M, "divin"),
@@ -955,7 +960,7 @@ class AdjectiveStore():
 
                   Adjective(Locale.FR, Gender.M, "furtif"),
                   Adjective(Locale.FR, Gender.F, "furtive"),
-                  Adjective(Locale.EN, Gender.U, "stealth"),
+                  Adjective(Locale.EN, Gender.U, "stealthy"),
 
                   Adjective(Locale.FR, Gender.U, "de-petite-vertue"),
                   Adjective(Locale.EN, Gender.U, "of-little-virtue", True),
@@ -1020,7 +1025,53 @@ class AdjectiveStore():
 
                   Adjective(Locale.FR, Gender.M, "insolent"),
                   Adjective(Locale.FR, Gender.F, "insolente"),
-                  Adjective(Locale.EN, Gender.U, "insolent")
+                  Adjective(Locale.EN, Gender.U, "insolent"),
+
+                  Adjective(Locale.FR, Gender.U, "noble"),
+                  Adjective(Locale.EN, Gender.U, "noble"),
+
+                  Adjective(Locale.FR, Gender.U, "ultra-pure"),
+                  Adjective(Locale.EN, Gender.U, "ultra-pure"),
+
+                  Adjective(Locale.FR, Gender.M, "royal"),
+                  Adjective(Locale.FR, Gender.F, "royale"),
+                  Adjective(Locale.EN, Gender.U, "royal"),
+
+                  Adjective(Locale.FR, Gender.M, "crasseux"),
+                  Adjective(Locale.FR, Gender.F, "crasseuse"),
+                  Adjective(Locale.EN, Gender.U, "filfty"),
+
+                  Adjective(Locale.FR, Gender.M, "puant"),
+                  Adjective(Locale.FR, Gender.F, "puante"),
+                  Adjective(Locale.EN, Gender.U, "stinky"),
+
+                  Adjective(Locale.FR, Gender.M, "terrifiant"),
+                  Adjective(Locale.FR, Gender.F, "terrifiante"),
+                  Adjective(Locale.EN, Gender.U, "terrifying"),
+
+                  Adjective(Locale.FR, Gender.U, "des-bas-fonds"),
+
+                  Adjective(Locale.FR, Gender.U, "aquatique"),
+                  Adjective(Locale.EN, Gender.U, "aquatic"),
+
+                  Adjective(Locale.FR, Gender.U, "dynamique"),
+                  Adjective(Locale.EN, Gender.U, "dynamic"),
+
+                  Adjective(Locale.FR, Gender.M, "interdimensionnel"),
+                  Adjective(Locale.FR, Gender.F, "interdimensionnelle"),
+                  Adjective(Locale.EN, Gender.U, "interdimensionnal"),
+
+                  Adjective(Locale.FR, Gender.U, "en-carton"),
+                  Adjective(Locale.FR, Gender.U, "en-mousse"),
+                  #french expression for "who suck"
+
+                  Adjective(Locale.FR, Gender.U, "transgenique"),
+                  Adjective(Locale.EN, Gender.U, "trangenic"),
+
+                  Adjective(Locale.FR, Gender.U, "aware"),
+                  Adjective(Locale.EN, Gender.U, "aware"),
+
+                  Adjective(Locale.EN, Gender.U, "awesome")
                   ]
 
 class Generator():
