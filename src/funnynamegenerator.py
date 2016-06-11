@@ -324,7 +324,16 @@ class NameStore():
              Name(Locale.EN, Gender.M, "shaman"),
 
              Name(Locale.FR, Gender.M, "chimere"),
-             Name(Locale.EN, Gender.M, "chimera")
+             Name(Locale.EN, Gender.M, "chimera"),
+
+             Name(Locale.FR, Gender.M, "paladin"),
+             Name(Locale.EN, Gender.M, "paladin"),
+
+             Name(Locale.FR, Gender.M, "elfe"),
+             Name(Locale.EN, Gender.M, "elve"),
+
+             Name(Locale.FR, Gender.M, "nain"),
+             Name(Locale.EN, Gender.M, "midget")
              ]
 
 class AdjectiveStore():
@@ -910,6 +919,7 @@ class AdjectiveStore():
 
                   Adjective(Locale.FR, Gender.U, "des-tenebres"),
                   Adjective(Locale.EN, Gender.U, "tenebrous"),
+                  Adjective(Locale.EN, Gender.U, "of-the-darkness", True),
 
                   Adjective(Locale.FR, Gender.M, "gluant"),
                   Adjective(Locale.FR, Gender.F, "gluante"),
@@ -1071,7 +1081,24 @@ class AdjectiveStore():
                   Adjective(Locale.FR, Gender.U, "aware"),
                   Adjective(Locale.EN, Gender.U, "aware"),
 
-                  Adjective(Locale.EN, Gender.U, "awesome")
+                  Adjective(Locale.EN, Gender.U, "awesome"),
+
+                  #Adjective(Locale.FR, Gender.M, "blindé"),
+                  #Adjective(Locale.FR, Gender.F, "blindée")
+                  Adjective(Locale.EN, Gender.U, "armored"),
+
+                  Adjective(Locale.FR, Gender.M, "corrompu"),
+                  Adjective(Locale.FR, Gender.F, "corrompue"),
+                  Adjective(Locale.EN, Gender.U, "corrupted"),
+
+                  Adjective(Locale.FR, Gender.U, "ectoplasmique"),
+                  Adjective(Locale.EN, Gender.U, "ectoplasmic"),
+
+                  Adjective(Locale.FR, Gender.M, "supersonique"),
+                  Adjective(Locale.EN, Gender.U, "supersonic"),
+
+                  Adjective(Locale.FR, Gender.M, "supra-luminique"),
+                  Adjective(Locale.EN, Gender.U, "faster-than-light")
                   ]
 
 class Generator():
