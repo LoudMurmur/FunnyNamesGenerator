@@ -333,7 +333,16 @@ class NameStore():
              Name(Locale.EN, Gender.M, "elve"),
 
              Name(Locale.FR, Gender.M, "nain"),
-             Name(Locale.EN, Gender.M, "midget")
+             Name(Locale.EN, Gender.M, "midget"),
+
+             Name(Locale.FR, Gender.M, "ninja"),
+             Name(Locale.EN, Gender.M, "ninja"),
+
+             Name(Locale.FR, Gender.M, "ange"),
+             Name(Locale.EN, Gender.M, "angel"),
+
+             Name(Locale.FR, Gender.M, "samourai"),
+             Name(Locale.EN, Gender.M, "samourai")
              ]
 
 class AdjectiveStore():
@@ -1098,7 +1107,20 @@ class AdjectiveStore():
                   Adjective(Locale.EN, Gender.U, "supersonic"),
 
                   Adjective(Locale.FR, Gender.M, "supra-luminique"),
-                  Adjective(Locale.EN, Gender.U, "faster-than-light")
+                  Adjective(Locale.EN, Gender.U, "faster-than-light"),
+
+                  Adjective(Locale.FR, Gender.M, "mutant"),
+                  Adjective(Locale.FR, Gender.F, "mutante"),
+                  Adjective(Locale.EN, Gender.U, "mutant"),
+
+                  Adjective(Locale.FR, Gender.U, "electrique"),
+                  Adjective(Locale.EN, Gender.U, "electric"),
+
+                  Adjective(Locale.FR, Gender.U, "a-vapeur"),
+                  Adjective(Locale.EN, Gender.U, "steam-powered"),
+
+                  Adjective(Locale.FR, Gender.U, "bio"),
+                  Adjective(Locale.EN, Gender.U, "organic")
                   ]
 
 class Generator():
